@@ -1,0 +1,5 @@
+user = 
+password = 
+hosts = 
+dbname = 
+query = Select goto from alias,alias_domain where alias_domain.alias_domain = '%d' and alias.address = '%u' || '@' || alias_domain.target_domain and alias.active = true and alias_domain.active = true
